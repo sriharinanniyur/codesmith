@@ -1,5 +1,3 @@
-/* Get output from cppcheck and splint utilities. */
-
 #ifndef __codesmith_parser_h__
 #define __codesmith_parser_h__
 #include <string>
