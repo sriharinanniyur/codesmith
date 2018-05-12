@@ -1,4 +1,4 @@
-# CodeSmith
+# CodeSmith - LancerHacks 2018 winner
 Craft beautiful code.
 
 ## Screenshot
