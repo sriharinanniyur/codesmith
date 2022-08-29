@@ -23,7 +23,7 @@ void Parser::check()
     std::string kws_cmd = "KWStyle -gcc " + filename;
     int c;
     
-    pipe = popen(clang_cmd.c_str(), "r"); // There should be a C++ version of this
+    pipe = popen(clang_cmd.c_str(), "r");
     if (pipe == NULL) throw std::runtime_error("Unable to execute command.");
     while ((c = getc(pipe)) != EOF) {
         ofile << (char) c;
